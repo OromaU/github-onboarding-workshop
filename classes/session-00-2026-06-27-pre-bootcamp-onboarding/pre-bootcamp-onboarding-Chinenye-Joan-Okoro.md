@@ -1,11 +1,6 @@
-# My Notes — [REPLACE WITH YOUR FULL NAME]
+# My Notes — Chinenye Joan Okoro
 
-> **How to use this file:**
-> 1. **Download** this file to your computer — click the **Raw** button on GitHub, then right-click and *Save As*, OR click the download icon at the top-right of the file view
-> 2. **Rename** the downloaded file — replace `yourname` with your actual first and last name in lowercase, separated by hyphens, e.g. `microsoft-entra-oyimafu-emmanuel.md`
-> 3. **Open** the renamed file in any text editor (Notepad, VS Code, TextEdit) and fill in your notes below
-> 4. **Upload** your file to GitHub — go into this session folder on your forked repo, click **Add file → Upload files**, drag in your completed file, then click **Commit changes**
-> 5. **Open a Pull Request** back to the main repo — the facilitator will review your notes before merging
+
 
 ---
 
@@ -13,7 +8,12 @@
 
 <!-- Write the main ideas covered in today's session -->
 
--
+- Class Management
+- Curriculum Walkthrough
+- Benefits of having a GitHub account
+- How to create a GitHub account
+- How to collaborate on GitHub
+- How to fork in repository
 -
 -
 
@@ -21,23 +21,24 @@
 
 ## Lab / Hands-On Work
 
-<!-- Describe what you did in the lab. Include steps, commands, or screenshots descriptions -->
+<!- I created my GitHub account
+
+
 
 ### What I did
-
+- I download the class files
 
 ### What happened / Result
-
+- The process was successful
 
 ### Challenges I faced
-
+- I forgot to fork the repository and tried to upload the file
 
 ---
 
 ## My Takeaways
 
-<!-- What was most valuable to you personally from this session? -->
-
+- I learnt about the importance of GitHub and how to setup GitHub repository
 
 ---
 
@@ -58,4 +59,4 @@
 
 ---
 
-*Submitted by: [Your Full Name] · [Your GitHub username]*
+*Submitted by: Chinenye Joan Okoro · AriZiv237*
