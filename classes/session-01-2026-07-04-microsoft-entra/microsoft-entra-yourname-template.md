@@ -1,61 +1,157 @@
-# My Notes — [REPLACE WITH YOUR FULL NAME]
+# My Notes — [Oroma Unufe]
 
-> **How to use this file:**
-> 1. **Download** this file to your computer — click the **Raw** button on GitHub, then right-click and *Save As*, OR click the download icon at the top-right of the file view
-> 2. **Rename** the downloaded file — replace `yourname` with your actual first and last name in lowercase, separated by hyphens, e.g. `microsoft-entra-oyimafu-emmanuel.md`
-> 3. **Open** the renamed file in any text editor (Notepad, VS Code, TextEdit) and fill in your notes below
-> 4. **Upload** your file to GitHub — go into this session folder on your forked repo, click **Add file → Upload files**, drag in your completed file, then click **Commit changes**
-> 5. **Open a Pull Request** back to the main repo — the facilitator will review your notes before merging
+Based on your notes and the screenshots from today's bootcamp, here's a professional class note you can submit.
 
 ---
 
-## Key Concepts I Learned
+# **Cloud and AI Security Bootcamp – Class Notes**
 
-<!-- Write the main ideas covered in today's session -->
+**Date:** Saturday, July 11, 2026
 
--
--
--
+## Topic
+
+**Secure Access to Resources Using Microsoft Entra**
+
+### Session Overview
+
+Today's session focused on how Microsoft Entra helps organizations secure access to resources through strong identity and access management. The class combined theoretical explanations with practical demonstrations to show how authentication, authorization, Conditional Access, and Privileged Identity Management (PIM) work together to protect organizational resources.
+
+## Key Concepts Covered
+
+### 1. Authentication
+
+Authentication is the process of verifying a user's identity before granting access to a system.
+
+Examples include:
+
+* Username and password
+* Multi-Factor Authentication (MFA)
+* FIDO2 security keys
+* Other supported authentication methods
+
+### 2. Authorization
+
+Authorization determines what an authenticated user is allowed to access or perform after successfully signing in.
+
+**Authentication = Who you are**
+**Authorization = What you are allowed to do**
+
+### 3. Multi-Factor Authentication (MFA)
+
+MFA provides an additional layer of security by requiring users to verify their identity using more than one authentication factor.
+
+Benefits include:
+
+* Reduces the risk of compromised accounts
+* Protects sensitive organizational resources
+* Strengthens identity security
+
+### 4. Single-Factor Authentication
+
+Using only a username and password is considered single-factor authentication and presents a higher security risk because stolen credentials can easily be used by attackers.
 
 ---
 
-## Lab / Hands-On Work
+# Conditional Access
 
-<!-- Describe what you did in the lab. Include steps, commands, or screenshots descriptions -->
+Conditional Access allows organizations to enforce security policies based on predefined conditions before granting access.
 
-### What I did
+During the practical session, we learned how to create a Conditional Access policy in Microsoft Entra.
 
+The policy can evaluate conditions such as:
 
-### What happened / Result
+* Users and groups
+* Applications
+* Device platforms
+* Locations
+* Client applications
+* Device filters
+* Authentication flows
+* Sign-in risk
 
+Organizations can configure policies to:
 
-### Challenges I faced
+* Require MFA
+* Require a specific authentication strength
+* Block access when conditions are not met
+* Allow access only from trusted locations or compliant devices
 
+We also learned the importance of:
 
----
-
-## My Takeaways
-
-<!-- What was most valuable to you personally from this session? -->
-
-
----
-
-## Questions I Still Have
-
-<!-- Anything you want to follow up on or ask the mentor -->
-
--
--
-
----
-
-## Resources I Found Useful
-
-<!-- Any links, docs, or Microsoft Learn modules you found helpful -->
-
--
+* Carefully selecting target users and groups
+* Excluding emergency or break-glass accounts
+* Using Report-only mode to test policies before enforcing them
 
 ---
 
-*Submitted by: [Your Full Name] · [Your GitHub username]*
+# Session Controls
+
+The instructor explained Session Controls, which help manage user sessions after authentication.
+
+Examples include:
+
+* Sign-in frequency
+* Persistent browser sessions
+* Controlling how long users remain signed in
+
+---
+
+# Authentication Methods
+
+Microsoft Entra supports multiple authentication methods.
+
+We learned that administrators must enable authentication methods such as FIDO2 security keys before users can configure and use them.
+
+---
+
+# Privileged Identity Management (PIM)
+
+The practical session introduced Microsoft Entra Privileged Identity Management (PIM).
+
+PIM helps organizations manage privileged accounts by:
+
+* Providing Just-in-Time (JIT) access
+* Reducing permanent administrative privileges
+* Requiring MFA before role activation
+* Requiring justification before activation
+* Limiting activation duration
+* Maintaining audit logs for accountability
+
+---
+
+# Hands-on Lab
+
+The practical exercise focused on onboarding an administrative role into PIM.
+
+The lab included:
+
+* Converting permanent administrator assignments to Eligible assignments
+* Requiring MFA before role activation
+* Requiring justification before activation
+* Setting a two-hour activation limit
+* Configuring approval for role activation
+* Testing the activation process
+* Reviewing audit logs
+
+---
+
+# Key Takeaways
+
+* Authentication verifies identity, while authorization determines permissions.
+* MFA significantly strengthens account security.
+* Conditional Access enables organizations to enforce security policies based on user and device conditions.
+* Report-only mode should be used to validate policies before deployment.
+* PIM helps implement the Principle of Least Privilege by providing temporary administrative access through Just-in-Time activation.
+* Identity security is most effective when theoretical knowledge is reinforced through practical implementation.
+
+---
+
+**Facilitators**
+
+* **Mr. Oghenegare Itoje** – Theory Session
+* **Mr. Uche Azunna** – Practical Demonstration
+* **Mr. Amos Adewale** – Moderator
+* **Mr. Oluwatosin Ajala** – Q&A Session and Next Week's Facilitator
+
+---
+
