@@ -1,6 +1,6 @@
 **Cloud Security & AI Bootcamp – Session Report**
 
-**Date :	Saturday, 4 July 2026**
+**Date :	Saturday, July 4, 2026**
 
 **Mentor :	Emmanuel Itoje / Uchechukwu Azunna**
 
