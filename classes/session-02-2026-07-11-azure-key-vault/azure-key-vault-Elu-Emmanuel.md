@@ -47,7 +47,7 @@
 
 <!-- Anything you want to follow up on or ask the mentor -->
 
-- Guide with understanding scripting
+- Guide with understanding scripting / powershell
 
 ---
 
