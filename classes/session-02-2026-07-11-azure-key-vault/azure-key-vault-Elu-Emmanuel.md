@@ -1,21 +1,15 @@
-# My Notes — [REPLACE WITH YOUR FULL NAME]
-
-> **How to use this file:**
-> 1. **Download** this file to your computer — click the **Raw** button on GitHub, then right-click and *Save As*, OR click the download icon at the top-right of the file view
-> 2. **Rename** the downloaded file — replace `yourname` with your actual first and last name in lowercase, separated by hyphens, e.g. `microsoft-entra-oyimafu-emmanuel.md`
-> 3. **Open** the renamed file in any text editor (Notepad, VS Code, TextEdit) and fill in your notes below
-> 4. **Upload** your file to GitHub — go into this session folder on your forked repo, click **Add file → Upload files**, drag in your completed file, then click **Commit changes**
-> 5. **Open a Pull Request** back to the main repo — the facilitator will review your notes before merging
+# My Notes — Elu Uchenna Emmanuel
 
 ---
 
 ## Key Concepts I Learned
 
 <!-- Write the main ideas covered in today's session -->
-
--
--
--
+- Key Vault object types (Keys, secrets and certificate)
+- Compare RBAC with Legacy access policy
+- Security controls, Network access, Soft delete and Purge protection
+- Enabling defender for Key Vault (MS defender for cloud >> defender plans and enable)
+- Deploy and secure azure Key Vault
 
 ---
 
@@ -25,19 +19,27 @@
 
 ### What I did
 
+- Configure azure key vault, define the network access
+- Determine the tier and the recovery option
+- Create secret and add role assignment to a key vault
+- Retrieve the secret using a managed identity
 
 ### What happened / Result
 
+- Key Vault was created, secret added but managed identity unable to retrieve.
+- After investigating, observed Legacy access was selected instead of RBAC from access configuration.
 
 ### Challenges I faced
 
+- Script writing while creating an app service
+- Error observed, the application does not have secret get permission
 
 ---
 
 ## My Takeaways
 
 <!-- What was most valuable to you personally from this session? -->
-
+- Being able to create a key vault, create a secret, add assignment 
 
 ---
 
@@ -45,8 +47,7 @@
 
 <!-- Anything you want to follow up on or ask the mentor -->
 
--
--
+- Guide with understanding scripting
 
 ---
 
@@ -54,8 +55,9 @@
 
 <!-- Any links, docs, or Microsoft Learn modules you found helpful -->
 
--
+- https://learn.microsoft.com/en-us/training/paths/configure-key-vault-security/
+- https://www.youtube.com/watch?v=GKqpej4X9B0&t=1602s
 
 ---
 
-*Submitted by: [Your Full Name] · [Your GitHub username]*
+*Submitted by: Elu Uchenna Emmanuel · eluemma*
